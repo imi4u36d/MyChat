@@ -1,0 +1,30 @@
+# Private chat data — never commit
+data/
+*.db
+*.sqlite
+*.sqlite3
+*.jsonl
+*.csv
+
+# Local model / runtime artifacts
+__pycache__/
+*.py[cod]
+*.log
+.env
+.env.*
+.venv/
+venv/
+
+# macOS / editors
+.DS_Store
+.idea/
+.vscode/
+
+# test / lint caches
+.pytest_cache/
+.ruff_cache/
+
+# packaging
+*.egg-info/
+build/
+dist/
